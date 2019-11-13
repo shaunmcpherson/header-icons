@@ -1,0 +1,30 @@
+tml {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  display: inline-flex;
+  background-color: #d05c2e;
+}
+
+.header h1 {
+  color: #fff;
+}
+
+.header img {
+  width: 40px;
+}
+
+.buttons li {
+  display: inline-flex;
+}
