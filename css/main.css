@@ -9,11 +9,11 @@ html {
 }
 
 body {
+  padding: 0;
   margin: 0;
 }
 
 header {
-  margin: 0;
   padding: 0;
   background-color: #d05c2e;
   border-bottom: 1px solid #a63f38;
@@ -24,16 +24,18 @@ header {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  padding: .5em 0;
+  padding: 0;
 }
 
 .header h1 {
   color: #fff;
-  font-size: 2rem;
+  font-size: 2rem
+  padding: .5em 0;
 }
 
 .header img {
   width: 40px;
+  padding: 0;
 }
 
 .buttons {
