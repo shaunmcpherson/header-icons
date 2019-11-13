@@ -1,6 +1,6 @@
 tml {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Merriweather", sans-serif;
   line-height: 1.5;
 }
 
@@ -12,19 +12,37 @@ body {
   margin: 0;
 }
 
+header {
+  background-color: #d05c2e;
+}
+
 .header {
   display: inline-flex;
-  background-color: #d05c2e;
+  padding: .5em 0;
 }
 
 .header h1 {
   color: #fff;
+  font-size: 2rem;
 }
 
 .header img {
   width: 40px;
 }
 
+.buttons {
+  margin: 0;
+  padding: 0;
+}
+
 .buttons li {
+  padding: .4rem 0;
   display: inline-flex;
+}
+
+.buttons a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.125rem;
 }
