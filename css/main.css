@@ -1,4 +1,4 @@
-tml {
+html {
   box-sizing: border-box;
   font-family: "Merriweather", sans-serif;
   line-height: 1.5;
@@ -58,11 +58,11 @@ header {
   color: #fff;
 }
 
-.buttons a hover {
+.buttons a:hover {
   background-color: #a63f38;
 }
 
-.cereals {
+nav li:nth-child(2) {
   border-left: 1px solid #a63f38;
   border-right: 1px solid #a63f38;
 }
