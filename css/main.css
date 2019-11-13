@@ -13,11 +13,15 @@ body {
 }
 
 header {
+  margin: 0;
+  padding: 0;
   background-color: #d05c2e;
+  border-bottom: 1px solid #a63f38;
 }
 
 .header {
   display: inline-flex;
+  flex-wrap: nowrap;
   padding: .5em 0;
 }
 
@@ -33,16 +37,27 @@ header {
 .buttons {
   margin: 0;
   padding: 0;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  list-style-type: none;
 }
 
-.buttons li {
+.btn {
   padding: .4rem 0;
-  display: inline-flex;
+  border-top: 1px solid #a63f38;
 }
 
 .buttons a {
-  list-style-type: none;
   text-decoration: none;
-  color: #fff;
   font-size: 1.125rem;
+  color: #fff;
+}
+
+.buttons a hover {
+  background-color: #a63f38;
+}
+
+.cereals {
+  border-left: 1px solid #a63f38;
+  border-right: 1px solid #a63f38;
 }
